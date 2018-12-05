@@ -2,6 +2,10 @@ a {
     text-decoration: none;
 }
 
+body {
+    background: lightgrey;
+}
+
 h1 {
     font-size: 20px;
     font-weight: bold;
@@ -12,7 +16,13 @@ h6 {
     font-weight: bold;
 }
 
+header {
+    background: white;
+    width: 100%;
+}
+
 section {
+    background: white;
     clear: both;
     width: 960px;
     align-content: center;
@@ -20,6 +30,13 @@ section {
     margin: auto;
     color: darkslategray;
     font-family: helvetica;
+    padding: 20px;
+}
+
+.body-border {
+    background: lightgray;
+    height: 5px;
+    margin: 20px;
 }
 
 .box {
@@ -28,14 +45,29 @@ section {
     margin: 20px;
 }
 
-.box-header-name {
+.name {
     background: darkslateblue;
     color: white;
     padding: 20px;
 }
 
-.box-header-nav {
+.nav {
     padding: 20px;
     float: right;
     /* border-right: 1px darkslategray solid; */
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#content {
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+#space {
+    height: 20px;
 }
