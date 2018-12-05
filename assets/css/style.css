@@ -1,5 +1,12 @@
+* {
+    box-sizing: border-box;
+    font-family: helvetica;
+}
+
 a {
     text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 body {
@@ -7,18 +14,23 @@ body {
 }
 
 h1 {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: bold;
 }
 
 h6 {
-    font-size: 14px;
+    font-size: 18px;
     font-weight: bold;
 }
 
 header {
     background: white;
     width: 100%;
+    padding: 0;
+    margin: 0;
+    vertical-align: bottom;
+    border-bottom: 2px darkgray solid;
+    padding-top: 40px;
 }
 
 section {
@@ -29,32 +41,58 @@ section {
     text-align: center;
     margin: auto;
     color: darkslategray;
-    font-family: helvetica;
-    padding: 20px;
+    /* font-family: helvetica; */
+    /* padding: 20px; */
+}
+
+footer {
+    width: 100%;
+    background: #202124;
+    color: white;
+    position: absolute;
+    vertical-align: bottom;
+    font-size: 14px;
+    bottom: 0;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+    border-top: 5px darkslateblue solid;
+}
+
+img {
+    padding-right: 20px;
+    /* padding-bottom: 20px; */
+    padding-top: 20px;
+}
+
+input {
+    width: 100%;
 }
 
 .body-border {
     background: lightgray;
-    height: 5px;
-    margin: 20px;
+    height: 3px;
+    margin: 20px 0px;
 }
 
 .box {
     width: auto;
     float: left;
-    margin: 20px;
+    /* margin: 20px; */
 }
 
 .name {
     background: darkslateblue;
     color: white;
     padding: 20px;
+    float: bottom;
 }
 
 .nav {
     padding: 20px;
     float: right;
     /* border-right: 1px darkslategray solid; */
+    float: bottom;
 }
 
 .clearfix::after {
@@ -66,8 +104,19 @@ section {
 #content {
     margin-top: 20px;
     padding-top: 20px;
+    padding: 20px;
+    text-align: left;
+    line-height: 1.75;
 }
 
-#space {
+.space {
     height: 20px;
+}
+
+#content-head {
+    align-self: left;
+}
+
+#message-box {
+    height: 80px;
 }

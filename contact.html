@@ -12,32 +12,35 @@
 
 <body>
     <header>
-        <section>
-            <div>Dave Paquette</div>
-            <div><a href="index.html">About</a></div>
-            <div><a href="portfolio.html">Portfolio</a></div>
-            <div><a href="contact.html">Contact</a></div>
+        <section class="clearfix" id="head-section">
+            <div class="box name">
+                <h1>Dave Paquette</h1>
+            </div>
+            <div class="box nav"><a href="contact.html">Contact</a></div>
+            <div class="box nav"><a href="portfolio.html">Portfolio</a></div>
+            <div class="box nav"><a href="index.html">About</a></div>
         </section>
-        <div></div>
     </header>
 
-    <section>
-        <h1>Contact</h1>
+    <div class="space"></div>
+
+    <section id="content">
+        <div id="content-head">
+            <h1>Contact</h1>
+        </div>
+        <div class="body-border"></div>
         <div></div>
-        <h6>Name</h6>
-        <input type="text" name="name">
-        <h6>Email</h6>
-        <input type="text" name="email">
-        <h6>Message</h6>
-        <input type="text" name="message">
+        Name<input type="text" name="name"> Email
+        <input type="text" name="email"> Message
+        <input id="message-box" type="text" name="message">
         <div><a>Submit</a></div>
     </section>
 
+
+    <div class="space"></div>
+
     <footer>
-        <div></div>
-        <section>
-            <div>Copyright David Paquette 2018</div>
-        </section>
+        <div>Copyright David Paquette 2018</div>
     </footer>
 </body>
 
