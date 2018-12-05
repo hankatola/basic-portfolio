@@ -1,6 +1,5 @@
 * {
     box-sizing: border-box;
-    font-family: helvetica;
 }
 
 a {
@@ -11,6 +10,7 @@ a {
 
 body {
     background: lightgrey;
+    font-family: helvetica;
 }
 
 h1 {
@@ -31,6 +31,8 @@ header {
     vertical-align: bottom;
     border-bottom: 2px darkgray solid;
     padding-top: 40px;
+    position: fixed;
+    top: 0;
 }
 
 section {
@@ -49,7 +51,7 @@ footer {
     width: 100%;
     background: #202124;
     color: white;
-    position: absolute;
+    position: fixed;
     vertical-align: bottom;
     font-size: 14px;
     bottom: 0;
@@ -102,8 +104,9 @@ input {
 }
 
 #content {
-    margin-top: 20px;
     padding-top: 20px;
+    margin-top: 126px;
+    margin-bottom: 79px;
     padding: 20px;
     text-align: left;
     line-height: 1.75;
