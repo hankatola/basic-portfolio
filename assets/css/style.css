@@ -1,0 +1,41 @@
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h6 {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+section {
+    clear: both;
+    width: 960px;
+    align-content: center;
+    text-align: center;
+    margin: auto;
+    color: darkslategray;
+    font-family: helvetica;
+}
+
+.box {
+    width: auto;
+    float: left;
+    margin: 20px;
+}
+
+.box-header-name {
+    background: darkslateblue;
+    color: white;
+    padding: 20px;
+}
+
+.box-header-nav {
+    padding: 20px;
+    float: right;
+    /* border-right: 1px darkslategray solid; */
+}
