@@ -13,6 +13,12 @@ a {
     font-weight: bold;
 }
 
+a:hover {
+    font-size: 20px;
+    /* background: lightgrey; */
+    color: slateblue;
+}
+
 body {
     /* begin borrowed css code from https://codepen.io/P1N2O/pen/pyBNzX */
     background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
@@ -79,6 +85,7 @@ img {
 }
 
 input {
+    vertical-align: top;
     width: 100%;
 }
 
@@ -112,6 +119,14 @@ input {
     content: "";
     display: block;
     clear: both;
+}
+
+.content-button {
+    margin-top: 20px;
+    padding: 5px 10px;
+    color: white;
+    background: darkslateblue;
+    width: auto;
 }
 
 #content {
